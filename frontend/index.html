@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<div class="modes">
+  <button onclick="setMode('pvp')">👥 2 Player</button>
+  <button onclick="setMode('ai')">🤖 Play with AI</button>
+</div>
+
+<p id="status">Choose Game Mode</p>
+
+<div class="board">
+  <div class="cell" onclick="move(0)"></div>
+  <div class="cell" onclick="move(1)"></div>
+  <div class="cell" onclick="move(2)"></div>
+  <div class="cell" onclick="move(3)"></div>
+  <div class="cell" onclick="move(4)"></div>
+  <div class="cell" onclick="move(5)"></div>
+  <div class="cell" onclick="move(6)"></div>
+  <div class="cell" onclick="move(7)"></div>
+  <div class="cell" onclick="move(8)"></div>
+</div>
+
+<button onclick="reset()">Restart</button>
+
+<audio id="clickSound" src="click.mp3"></audio>
+<audio id="winSound" src="win.mp3"></audio>
+<audio id="loseSound" src="lost.mp3"></audio>
+<audio id="drawSound" src="draw.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
