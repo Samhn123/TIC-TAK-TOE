@@ -1,2 +1,12 @@
-# TIC-TAK-TOE
-A simple Tic Tac Toe game built using Python/HTML/CSS/JavaScript. This project allows two players to play the classic X vs O game with an interactive interface and win/draw detection.
+# 🎮 Tic Tac Toe Game
+
+A simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
+
+## 🚀 Features
+- Two-player mode
+- Winner detection
+- Draw detection
+- Simple UI
+
+## ▶️ How to Run
+Open index.html in browser
